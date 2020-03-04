@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Calculator.exe"/>
+    <OBJFILES value="Calculator.obj Unit1.obj Cuts.obj"/>
+    <RESFILES value="Calculator.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm Cuts.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib bcbsmp.lib DXDBEDC5.lib vcldb.lib dbrtl.lib DXELIBC5.lib 
+      ELPACKB5.lib DXCOMNC5.lib DXEDTRC5.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib DXEDTRC5.lib DXCOMNC5.lib ELPACKB5.lib DXELIBC5.lib 
+      dbrtl.lib vcldb.lib DXDBEDC5.lib bcbsmp.lib vclx.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcb2kaxserver.bpi bcbie.bpi bcbsmp.bpi dsnap.bpi 
+      inet.bpi inetdb.bpi dbrtl.bpi vcldb.bpi adortl.bpi bdertl.bpi vcldbx.bpi 
+      dss.bpi ibxpress.bpi vclie.bpi nmfast.bpi dclocx.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi teeqr.bpi webdsnap.bpi DXCOMNC5.bpi DXSBC5.bpi DXBARC5.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Calculator.cpp"/>
+    <INCLUDEPATH value="&quot;d:\builder components\developer express inc\expresseditors library\c++builder 5\sources&quot;;main;$(BCB)\include;$(BCB)\include\vcl;&quot;D:\Builder Components\Developer Express Inc\Lib&quot;;&quot;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source&quot;;&quot;D:\Builder Components\Developer Express Inc\ExpressCommon\C++Builder 5\Sources&quot;"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;&quot;d:\builder components\developer express inc\expresseditors library\c++builder 5\sources&quot;;main;&quot;d:\builder components\elpack v2.80 for bcb 5\code&quot;;&quot;d:\builder components\developer express inc\expresscommon\c++builder 5\lib&quot;;$(BCB)\lib\obj;$(BCB)\lib;&quot;D:\Builder Components\Developer Express Inc\Lib&quot;;&quot;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source&quot;"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;d:\builder components\developer express inc\expresseditors library\c++builder 5\sources&quot; 
+      -Imain -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I&quot;D:\Builder Components\Developer Express Inc\Lib&quot; 
+      -I&quot;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source&quot; 
+      -I&quot;D:\Builder Components\Developer Express Inc\ExpressCommon\C++Builder 5\Sources&quot; 
+      -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- 
+      -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Calculator.cpp" FORMNAME="" UNITNAME="Calculator" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Calculator.res" FORMNAME="" UNITNAME="Calculator" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="frmCalc" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Cuts.cpp" FORMNAME="FormCuts" UNITNAME="Cuts" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=1
+Debug=0
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=КнААПО, ОГТ-ОПУ
+FileDescription=Калькулятор для технолога
+FileVersion=1.0.0.1
+InternalName=Calculator
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=Calculator.exe
+ProductName=ТехКалькулятор
+ProductVersion=1.0.0.1
+Comments=Программа создана для собственных нужд
+
+[HistoryLists\hlIncludePath]
+Count=8
+Item0=d:\builder components\developer express inc\expresseditors library\c++builder 5\sources\;main;$(BCB)\include;$(BCB)\include\vcl;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source\;D:\Builder Components\Developer Express Inc\ExpressCommon\C++Builder 5\Sources\
+Item1=d:\builder components\developer express inc\expresseditors library\c++builder 5\sources;main;$(BCB)\include;$(BCB)\include\vcl;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source\;D:\Builder Components\Developer Express Inc\ExpressCommon\C++Builder 5\Sources
+Item2=d:\builder components\developer express inc\expresseditors library\c++builder 5\sources;main;$(BCB)\include;$(BCB)\include\vcl;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source\
+Item3=$(BCB)\include;$(BCB)\include\vcl;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source\
+Item4=$(BCB)\include;$(BCB)\include\vcl;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source
+Item5=$(BCB)\include;$(BCB)\include\vcl;D:\Builder Components\Developer Express Inc\Lib\
+Item6=$(BCB)\include;$(BCB)\include\vcl;D:\Builder Components\Developer Express Inc\Lib
+Item7=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=8
+Item0=$(BCB)\Projects\Lib;d:\builder components\developer express inc\expresseditors library\c++builder 5\sources\;main;d:\builder components\elpack v2.80 for bcb 5\code\;d:\builder components\developer express inc\expresscommon\c++builder 5\lib\;$(BCB)\lib\obj;$(BCB)\lib;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source\
+Item1=$(BCB)\Projects\Lib;d:\builder components\developer express inc\expresseditors library\c++builder 5\sources;main;d:\builder components\elpack v2.80 for bcb 5\code\;d:\builder components\developer express inc\expresscommon\c++builder 5\lib\;$(BCB)\lib\obj;$(BCB)\lib;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source\
+Item2=d:\builder components\elpack v2.80 for bcb 5\code\;d:\builder components\developer express inc\expresscommon\c++builder 5\lib\;$(BCB)\lib\obj;$(BCB)\lib;D:\Builder Components\Developer Express Inc\Lib\;D:\Builder Components\ElPack v2.80 For BCB 5\Code;D:\Builder Components\ElPack v2.80 For BCB 5\Code\Source
+Item3=d:\builder components\elpack v2.80 for bcb 5\code\;d:\builder components\developer express inc\expresscommon\c++builder 5\lib\;$(BCB)\lib\obj;$(BCB)\lib;D:\Builder Components\Developer Express Inc\Lib\
+Item4=d:\builder components\elpack v2.80 for bcb 5\code;d:\builder components\developer express inc\expresscommon\c++builder 5\lib;$(BCB)\lib\obj;$(BCB)\lib;D:\Builder Components\Developer Express Inc\Lib\
+Item5=$(BCB)\lib\obj;$(BCB)\lib;D:\Builder Components\Developer Express Inc\Lib\
+Item6=$(BCB)\lib\obj;$(BCB)\lib;D:\Builder Components\Developer Express Inc\Lib
+Item7=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
